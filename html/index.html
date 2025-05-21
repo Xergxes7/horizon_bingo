@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bingo Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="display: none;">
+    <div id="bingoContainer">
+        <h2>Your Bingo Card</h2>
+        <div class="grid" id="bingoGrid"></div>
+        <button onclick="uploadElementAsImageToDiscordWebhook()">Send Result</button>
+        <button onclick="resetCard()">Reset</button>
+        <button onclick="closeCard()">Close</button>
+        <div id="latestNumberDisplay"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
