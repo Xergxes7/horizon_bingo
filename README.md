@@ -11,6 +11,7 @@ A basic open source bingo script made for QB-core
 1. run db.sql
 2. Configure config.lua for target locations, items etc
 3. edit script.js const webhookUrl = ''; // Replace with your Discord webhook URL
+4. Add item to items.lua for qb-core
 
 ## Features
 * Peristent cards based on citizen ID
